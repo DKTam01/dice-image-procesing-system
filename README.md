@@ -18,9 +18,9 @@ This project is an automated computer vision system developed in MATLAB that pro
 ## Setup & Usage
 1. Clone this repository to your local machine.
 2. Ensure your target images (e.g., `.jpg`, `.png`) are placed in the root directory or the provided `test_images/` folder.
-3. Open `visionSysCode.m` and update the `fileName` variable (Line 16) to match your target image.
+3. Open `visionSysCode.m` and update the `fileName` variable (Line 15) to match your target image.
 4. Run the script to generate the processing dashboard.
 
 ## Limitations & Configuration
-* **Spatial Calibration:** The image processing includes an optional cropping function (`imcrop`) that is pre-set for a specific testing environment. To process a full-scale image without cropping, adjust the script to `croppedImage = raw;` (See Line 26).
+* **Spatial Calibration:** The image processing includes an optional cropping function (`imcrop`) that is pre-set for a specific testing environment. To process a full-scale image without cropping, adjust the script to `croppedImage = raw;` (See Line 36).
 * **Color Thresholding:** The program includes an optional HSV mask originally designed to filter out blue background shadows. Depending on the test image's background color, this mask can be toggled or adjusted (See Lines 58-59).
