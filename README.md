@@ -1,7 +1,5 @@
 # dice-image-procesing-system
 
-# Dice Vision System: Image Processing & Noise Filtration
-
 ## Project Overview
 This project is an automated computer vision system developed in MATLAB that processes static images to calculate visual metrics. The core objective is to apply digital signal processing techniques to filter out environmental noise and cleanly extract specific data points. Specifically, this program processes images of dice to dynamically isolate, evaluate, and count the number of dots (pips).
 
